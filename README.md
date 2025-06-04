@@ -23,38 +23,6 @@ This system helps in efficiently managing hostel operations such as user registr
 
 ---
 
-## 📁 Project Folder Structure
-
-hostelManagement/
-├── backend/                  # Node.js + Express API (if applicable)
-│   ├── config/               # DB config, JWT config
-│   ├── controllers/          # Request handlers for each route
-│   ├── models/               # Mongoose models (User, Room, etc.)
-│   ├── routes/               # API route definitions
-│   ├── middleware/           # Auth & validation middleware
-│   └── server.js             # Entry point for backend server
-│
-├── src/                      # Angular Frontend Code
-│   ├── app/                  # Main Angular app
-│   │   ├── components/       # Reusable Angular components
-│   │   ├── pages/            # Page components (Login, Dashboard, etc.)
-│   │   ├── services/         # Angular services (API calls)
-│   │   ├── models/           # Interfaces for data types
-│   │   ├── app-routing.module.ts
-│   │   └── app.module.ts
-│   ├── assets/               # Static files like images, icons
-│   ├── environments/         # Environment config (dev/prod)
-│   ├── index.html            # Main HTML file
-│   └── main.ts               # Main entry point
-│
-├── .env                      # Environment variables (Mongo URI, JWT Secret)
-├── angular.json              # Angular config
-├── package.json              # Project dependencies and scripts
-└── README.md                 # Project overview and instructions
-
-
----
-
 ## ⚙️ Setup Instructions
 
 ### 🔧 Prerequisites
